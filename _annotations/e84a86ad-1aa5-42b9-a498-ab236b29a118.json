@@ -4,31 +4,41 @@ order: 2
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Text 2",
-            "purpose": "tagging",
+            "created": "2024-02-04T11:20:53.279Z",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-04T11:20:53.279Z",
-            "modified": "2024-02-04T11:20:55.075Z"
+            "modified": "2024-02-04T11:20:55.075Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Text 2"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u4e01\u672a\uff08\u897f\u5143\u4e00\u56db\u516b\u4e03\u5e74\uff09\u5b63\u51ac\u4e09\u65e5\u8207\u5fb7\u5fb5\u591c\u5750\u3002\u5076\u503c\u8208\u81f3\u3002\u5beb\u6b64\u4ee5\u8d08\u4e91\u3002\u6c88\u5468\u3002",
+            "purpose": "commenting",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T11:21:21.449Z"
         }
     ],
+    "id": "e84a86ad-1aa5-42b9-a498-ab236b29a118.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=795.6515502929688,184.57667541503906,330.90911865234375,439.99998474121094"
+        },
         "source": {
             "id": "https://iiifod.npm.gov.tw/iiif/2/K2A%2FK2A001315N000000000PAA/info.json",
             "type": "image"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=795.6515502929688,184.57667541503906,330.90911865234375,439.99998474121094"
         }
     },
-    "id": "e84a86ad-1aa5-42b9-a498-ab236b29a118.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
