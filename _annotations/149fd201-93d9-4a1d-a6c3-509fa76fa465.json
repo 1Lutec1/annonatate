@@ -1,0 +1,38 @@
+---
+canvas: "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Widmung",
+            "purpose": "tagging",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T10:17:19.607Z",
+            "modified": "2024-02-04T10:17:23.319Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=173.12619018554688,125.34290313720703,1620.3757629394531,534.9089279174805"
+        }
+    },
+    "id": "149fd201-93d9-4a1d-a6c3-509fa76fa465.json",
+    "motivation": "commenting"
+}
