@@ -15,17 +15,6 @@ order: 5
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "\u00c4hnlich wie die Weiden sind auch Schilf- und Rohrpflanzen aufgrund ihrer Biegsamkeit und Widerstandsf\u00e4higkeit ein beliebtes Subjekt, um Bescheidenheit und Resilienz darzustellen."
-        },
-        {
-            "type": "TextualBody",
-            "value": "Beschreibung",
-            "purpose": "tagging",
-            "creator": {
-                "id": "1Lutec1",
-                "name": "1Lutec1"
-            },
-            "created": "2024-02-04T12:26:05.074Z",
-            "modified": "2024-02-04T12:26:07.013Z"
         }
     ],
     "id": "824eb48f-a5ae-4b89-9fee-18bfb14d0d30.json",
