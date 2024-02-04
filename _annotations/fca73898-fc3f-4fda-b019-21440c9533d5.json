@@ -17,15 +17,15 @@ order: 3
             "value": "Kraniche symbolisieren langes Leben."
         },
         {
-            "created": "2024-02-04T12:30:44.522Z",
+            "type": "TextualBody",
+            "value": "Beschreibung A5",
+            "purpose": "tagging",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "modified": "2024-02-04T12:30:46.884Z",
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Beschreibung 6"
+            "created": "2024-02-04T12:40:20.985Z",
+            "modified": "2024-02-04T12:40:24.098Z"
         }
     ],
     "id": "fca73898-fc3f-4fda-b019-21440c9533d5.json",
