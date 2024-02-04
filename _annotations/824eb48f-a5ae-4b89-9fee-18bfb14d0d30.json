@@ -4,21 +4,38 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c4hnlich wie die Weiden sind auch Schilf- und Rohrpflanzen aufgrund ihrer Biegsamkeit und Widerstandsf\u00e4higkeit ein beliebtes Subjekt, um Bescheidenheit und Resilienz darzustellen.",
-            "purpose": "commenting",
+            "created": "2024-02-04T12:01:36.454Z",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-04T12:01:36.454Z",
-            "modified": "2024-02-04T12:03:16.483Z"
+            "modified": "2024-02-04T12:03:16.483Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\u00c4hnlich wie die Weiden sind auch Schilf- und Rohrpflanzen aufgrund ihrer Biegsamkeit und Widerstandsf\u00e4higkeit ein beliebtes Subjekt, um Bescheidenheit und Resilienz darzustellen."
+        },
+        {
+            "type": "TextualBody",
+            "value": "Beschreibung",
+            "purpose": "tagging",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T12:26:05.074Z",
+            "modified": "2024-02-04T12:26:07.013Z"
         }
     ],
+    "id": "824eb48f-a5ae-4b89-9fee-18bfb14d0d30.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3114.076416015625,1642.460205078125,860,410.9091796875"
+        },
         "source": {
             "partOf": {
                 "id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
@@ -26,13 +43,7 @@ order: 5
             },
             "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3114.076416015625,1642.460205078125,860,410.9091796875"
         }
     },
-    "id": "824eb48f-a5ae-4b89-9fee-18bfb14d0d30.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
