@@ -4,21 +4,38 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Der gr\u00fcn-blaue Farbton (Gr\u00fcn und Blau waren in der chinesischen Wahrnehmung zwei Auspr\u00e4gungen derselben Farbe) ist in der chinesischen Elementenlehre die Farbe der Gew\u00e4chse und symbolisiert als solche Gesundheit und Harmonie.",
-            "purpose": "commenting",
+            "created": "2024-02-04T12:06:36.596Z",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-04T12:06:36.596Z",
-            "modified": "2024-02-04T12:09:10.417Z"
+            "modified": "2024-02-04T12:09:10.417Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Der gr\u00fcn-blaue Farbton (Gr\u00fcn und Blau waren in der chinesischen Wahrnehmung zwei Auspr\u00e4gungen derselben Farbe) ist in der chinesischen Elementenlehre die Farbe der Gew\u00e4chse und symbolisiert als solche Gesundheit und Harmonie."
+        },
+        {
+            "type": "TextualBody",
+            "value": "Beschreibung",
+            "purpose": "tagging",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T12:26:11.672Z",
+            "modified": "2024-02-04T12:26:13.814Z"
         }
     ],
+    "id": "675aff0f-c9ff-4d08-8c38-677721e67d0d.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1912.712890625,616.5511474609375,4621.81787109375,1439.9998779296875"
+        },
         "source": {
             "partOf": {
                 "id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
@@ -26,13 +43,7 @@ order: 6
             },
             "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1912.712890625,616.5511474609375,4621.81787109375,1439.9998779296875"
         }
     },
-    "id": "675aff0f-c9ff-4d08-8c38-677721e67d0d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
