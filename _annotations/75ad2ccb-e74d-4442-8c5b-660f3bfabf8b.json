@@ -1,0 +1,44 @@
+---
+canvas: "https://iiifod.npm.gov.tw/iiif/2/K2A%2FK2A001315N000000000PAA/info.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Gedicht 1",
+            "purpose": "tagging",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T11:18:21.127Z",
+            "modified": "2024-02-04T11:18:23.496Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u96e8\u4e2d\u4f5c\u756b\u501f\u6fd5\u6f64\u3002\u71c8\u4e0b\u5beb\u8a69\u6d88\u591c\u9577\u3002\u660e\u65e5\u958b\u9580\u6625\u6c34\u95ca\u3002\u5e73\u6e56\u6b78\u53bb\u81ea\u9cf4\u6994\u3002\u4e01\u672a\uff08\u897f\u5143\u4e00\u56db\u516b\u4e03\u5e74\uff09\u5b63\u51ac\u4e09\u65e5\u8207\u5fb7\u5fb5\u591c\u5750\u3002\u5076\u503c\u8208\u81f3\u3002\u5beb\u6b64\u4ee5\u8d08\u4e91\u3002\u6c88\u5468\u3002",
+            "purpose": "commenting",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T11:18:49.769Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiifod.npm.gov.tw/iiif/2/K2A%2FK2A001315N000000000PAA/info.json",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1114.6510009765625,103.5942611694336,532.7705078125,478.5068130493164"
+        }
+    },
+    "id": "75ad2ccb-e74d-4442-8c5b-660f3bfabf8b.json",
+    "motivation": "commenting"
+}
