@@ -1,0 +1,38 @@
+---
+canvas: "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Kieferb\u00e4ume sind ein beliebtes Motiv in chinesischer Landschaftsmalerei. Als immergr\u00fcne Pflanze simboisieren sie langes Leben und Widerstandskraft.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T11:27:43.366Z",
+            "modified": "2024-02-04T11:30:04.891Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2020.1348876953125,963.225341796875,718.4283447265625,495.0753173828125"
+        }
+    },
+    "id": "ec67c30a-b694-412c-9564-27d9ea9092d1.json",
+    "motivation": "commenting"
+}
