@@ -1,0 +1,38 @@
+---
+canvas: "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Weiden stammen urspr\u00fcnglich aus China und waren dort eng mit Fr\u00fchling und Wiedergeburt assoziiert. Ihre eng verflochtenen \u00c4ste galten als Symbol f\u00fcr Freundschaft und ihre Biegsamkeit wurde mit der Tugend der Bescheidenheit in Verbindung gebracht.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T11:37:28.070Z",
+            "modified": "2024-02-04T11:41:58.273Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=5115.712890625,783.9238891601562,1387.27294921875,1056.3635864257812"
+        }
+    },
+    "id": "1b115619-4a1e-4843-851d-02be321c2edb.json",
+    "motivation": "commenting"
+}
