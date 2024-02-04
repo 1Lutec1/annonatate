@@ -1,0 +1,34 @@
+---
+canvas: "https://iiifod.npm.gov.tw/iiif/2/K2A%2FK2A001315N000000000PAA/info.json"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Text 2",
+            "purpose": "tagging",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T11:20:53.279Z",
+            "modified": "2024-02-04T11:20:55.075Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://iiifod.npm.gov.tw/iiif/2/K2A%2FK2A001315N000000000PAA/info.json",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=795.6515502929688,184.57667541503906,330.90911865234375,439.99998474121094"
+        }
+    },
+    "id": "e84a86ad-1aa5-42b9-a498-ab236b29a118.json",
+    "motivation": "commenting"
+}
