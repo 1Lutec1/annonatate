@@ -4,21 +4,38 @@ order: 3
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Kraniche symbolisieren langes Leben.",
-            "purpose": "commenting",
+            "created": "2024-02-04T11:31:49.017Z",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-04T11:31:49.017Z",
-            "modified": "2024-02-04T11:32:35.615Z"
+            "modified": "2024-02-04T11:32:35.615Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Kraniche symbolisieren langes Leben."
+        },
+        {
+            "type": "TextualBody",
+            "value": "Beschreibung 6",
+            "purpose": "tagging",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T12:30:44.522Z",
+            "modified": "2024-02-04T12:30:46.884Z"
         }
     ],
+    "id": "fca73898-fc3f-4fda-b019-21440c9533d5.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=7914.34912109375,1821.1966552734375,398.18212890625,124.54541015625"
+        },
         "source": {
             "partOf": {
                 "id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
@@ -26,13 +43,7 @@ order: 3
             },
             "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=7914.34912109375,1821.1966552734375,398.18212890625,124.54541015625"
         }
     },
-    "id": "fca73898-fc3f-4fda-b019-21440c9533d5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
