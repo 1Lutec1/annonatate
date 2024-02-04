@@ -15,17 +15,6 @@ order: 6
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Der gr\u00fcn-blaue Farbton (Gr\u00fcn und Blau waren in der chinesischen Wahrnehmung zwei Auspr\u00e4gungen derselben Farbe) ist in der chinesischen Elementenlehre die Farbe der Gew\u00e4chse und symbolisiert als solche Gesundheit und Harmonie."
-        },
-        {
-            "type": "TextualBody",
-            "value": "Beschreibung",
-            "purpose": "tagging",
-            "creator": {
-                "id": "1Lutec1",
-                "name": "1Lutec1"
-            },
-            "created": "2024-02-04T12:26:11.672Z",
-            "modified": "2024-02-04T12:26:13.814Z"
         }
     ],
     "id": "675aff0f-c9ff-4d08-8c38-677721e67d0d.json",
