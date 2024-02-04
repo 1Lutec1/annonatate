@@ -15,6 +15,17 @@ order: 2
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Kieferb\u00e4ume sind ein beliebtes Motiv in chinesischer Landschaftsmalerei. Als immergr\u00fcne Pflanze simboisieren sie langes Leben und Widerstandskraft."
+        },
+        {
+            "type": "TextualBody",
+            "value": "Beschreibung 2",
+            "purpose": "tagging",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-04T12:30:05.034Z",
+            "modified": "2024-02-04T12:30:09.911Z"
         }
     ],
     "id": "ec67c30a-b694-412c-9564-27d9ea9092d1.json",
