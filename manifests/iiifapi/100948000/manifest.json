@@ -1,34 +1,9 @@
 ---
-added: '2024-02-04 10:13:35.132772'
-thumbnail: https://emuseum.nich.go.jp/img/content/100948001001/1/thumbnail.jpeg
-title:
-- !!python/object/apply:collections.OrderedDict
-  - - - '@value'
-      - "e\u56FD\u5B9D - \u82B1\u9696\u5915\u967D\u56F3"
-    - - '@language'
-      - ja
-- !!python/object/apply:collections.OrderedDict
-  - - - '@value'
-      - e-Museum - Sunset along the Floral Embankment
-    - - '@language'
-      - en
-- !!python/object/apply:collections.OrderedDict
-  - - - '@value'
-      - "e\u56FD\u5B9D - \u82B1\u575E\u5915\u9633\u56FE"
-    - - '@language'
-      - zh
-- !!python/object/apply:collections.OrderedDict
-  - - - '@value'
-      - "e\uAD6D\uBCF4 - \uAF43\uC774 \uD540 \uB451\uC758 \uC11D\uC591 \uADF8\uB9BC\
-        [\u82B1\u9696\u5915\u967D\u5716]"
-    - - '@language'
-      - ko
-user: 1Lutec1
-
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/iiifapi/100948000/manifest.json",
   "@type": "sc:Manifest",
   "label": [
     {
@@ -420,32 +395,6 @@ user: 1Lutec1
     "height": 47,
     "width": 200
   },
-  "viewingHint": "individuals",
-  "viewingDirection": "",
-  "license": "https://emuseum.nich.go.jp/about",
-  "attribution": [
-    {
-      "@value": "\u72ec\u7acb\u884c\u653f\u6cd5\u4eba\u56fd\u7acb\u6587\u5316\u8ca1\u6a5f\u69cb",
-      "@language": "ja"
-    },
-    {
-      "@value": "National Institutes for Cultural Heritage",
-      "@language": "en"
-    },
-    {
-      "@value": "\u56fd\u7acb\u6587\u5316\u8d22\u673a\u6784",
-      "@language": "zh"
-    },
-    {
-      "@value": "\uad6d\ub9bd\ubb38\ud654\uc7ac\uae30\uad6c",
-      "@language": "ko"
-    }
-  ],
-  "logo": [
-    {
-      "@id": "https://emuseum.nich.go.jp/assets/img/logo.png"
-    }
-  ],
   "rendering": {
     "@id": "https://emuseum.nich.go.jp/detail?langId=ja&webView=&content_base_id=100948&content_part_id=0&content_pict_id=0",
     "label": [
@@ -468,6 +417,29 @@ user: 1Lutec1
     ],
     "format": "text/html"
   },
+  "attribution": [
+    {
+      "@value": "\u72ec\u7acb\u884c\u653f\u6cd5\u4eba\u56fd\u7acb\u6587\u5316\u8ca1\u6a5f\u69cb",
+      "@language": "ja"
+    },
+    {
+      "@value": "National Institutes for Cultural Heritage",
+      "@language": "en"
+    },
+    {
+      "@value": "\u56fd\u7acb\u6587\u5316\u8d22\u673a\u6784",
+      "@language": "zh"
+    },
+    {
+      "@value": "\uad6d\ub9bd\ubb38\ud654\uc7ac\uae30\uad6c",
+      "@language": "ko"
+    }
+  ],
+  "license": "https://emuseum.nich.go.jp/about",
+  "logo": {
+    "@id": "https://emuseum.nich.go.jp/assets/img/logo.png"
+  },
+  "viewingHint": "individuals",
   "sequences": [
     {
       "@type": "sc:Sequence",
@@ -476,17 +448,22 @@ user: 1Lutec1
           "@id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
           "@type": "sc:Canvas",
           "label": "1",
+          "thumbnail": {
+            "@id": "https://emuseum.nich.go.jp/img/content/100948001001/1/thumbnail.jpeg",
+            "@type": "dctypes:Image"
+          },
           "height": 2137,
           "width": 9065,
           "images": [
             {
               "@type": "oa:Annotation",
-              "@context": "http://iiif.io/api/presentation/2/context.json",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
+                "height": 2137,
+                "width": 9065,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif",
@@ -512,17 +489,18 @@ user: 1Lutec1
                       ]
                     }
                   ]
-                },
-                "height": 2137,
-                "width": 9065
+                }
               },
               "on": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif"
             }
           ],
-          "thumbnail": {
-            "@id": "https://emuseum.nich.go.jp/img/content/100948001001/1/thumbnail.jpeg",
-            "@type": "dctypes:Image"
-          }
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/100948001001-tif-0-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         }
       ]
     }
