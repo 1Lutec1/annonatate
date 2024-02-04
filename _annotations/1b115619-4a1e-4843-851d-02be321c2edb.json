@@ -15,17 +15,6 @@ order: 4
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Weiden stammen urspr\u00fcnglich aus China und waren dort eng mit Fr\u00fchling und Wiedergeburt assoziiert. Ihre eng verflochtenen \u00c4ste galten als Symbol f\u00fcr Freundschaft und ihre Biegsamkeit wurde mit der Tugend der Bescheidenheit in Verbindung gebracht."
-        },
-        {
-            "type": "TextualBody",
-            "value": "Beschreibung A2",
-            "purpose": "tagging",
-            "creator": {
-                "id": "1Lutec1",
-                "name": "1Lutec1"
-            },
-            "created": "2024-02-04T12:39:45.142Z",
-            "modified": "2024-02-04T12:39:49.042Z"
         }
     ],
     "id": "1b115619-4a1e-4843-851d-02be321c2edb.json",
