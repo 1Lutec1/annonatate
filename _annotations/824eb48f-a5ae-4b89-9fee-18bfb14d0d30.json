@@ -18,14 +18,14 @@ order: 5
         },
         {
             "type": "TextualBody",
-            "value": "Beschreibung 4",
+            "value": "Beschreibung A3",
             "purpose": "tagging",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-04T12:30:23.870Z",
-            "modified": "2024-02-04T12:30:27.547Z"
+            "created": "2024-02-04T12:39:56.574Z",
+            "modified": "2024-02-04T12:39:59.676Z"
         }
     ],
     "id": "824eb48f-a5ae-4b89-9fee-18bfb14d0d30.json",
