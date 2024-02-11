@@ -17,15 +17,26 @@ order: 1
             "value": "Berge und Wolken sind, ebenso wie Wasser, Grundelemente eines jeden Shanshui-Gem\u00e4ldes."
         },
         {
+            "created": "2024-02-11T22:28:28.894Z",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "modified": "2024-02-11T22:28:31.991Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Beschreibung",
+            "value": "Beschreibung"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Motiv",
             "purpose": "tagging",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-11T22:28:28.894Z",
-            "modified": "2024-02-11T22:28:31.991Z"
+            "created": "2024-02-11T22:28:38.951Z",
+            "modified": "2024-02-11T22:28:39.819Z"
         }
     ],
     "id": "833c9aff-ada7-4f36-bd33-7e2cbce4188c.json",
