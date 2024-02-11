@@ -9,6 +9,12 @@
             "title": "Ann01",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://1lutec1.github.io/annonatate/annotations/1lutec1-github-io-yangjiechang660jpg-yangjiechang660jpg-1-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
