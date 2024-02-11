@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "Test 1",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-storyboard annotationurl='https://1lutec1.github.io/annonatate/annotations/100948001001-tif-0-list.json'></iiif-storyboard>",
+            "title": "Ann01",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
