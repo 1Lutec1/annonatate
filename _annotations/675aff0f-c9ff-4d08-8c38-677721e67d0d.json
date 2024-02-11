@@ -1981,16 +1981,15 @@ order: 6
     "motivation": "commenting",
     "target": {
         "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1912.712890625,616.5511474609375,4621.81787109375,1439.9998779296875"
+            "value": "<svg><polygon points=\"1912.712890625,616.5511474609375 4223.621826171875,616.5511474609375 6534.53076171875,616.5511474609375 6534.53076171875,1336.5510864257812 6534.53076171875,2056.551025390625 4223.621826171875,2056.551025390625 1912.712890625,2056.551025390625 1912.712890625,1336.5510864257812\"></polygon></svg>",
+            "type": "SvgSelector"
         },
         "source": {
+            "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
             "partOf": {
                 "id": "https://1lutec1.github.io/annonatate/manifests/iiifapi/100948000/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100948001001.tif/full/full/0/default.jpg",
             "type": "Canvas"
         }
     },
