@@ -4,32 +4,38 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Berge und Wolken sind, ebenso wie Wasser, Grundelemente eines jeden Shanshui-Gem\u00e4ldes.",
-            "purpose": "commenting",
+            "created": "2024-02-11T22:25:29.668Z",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-11T22:25:29.668Z",
-            "modified": "2024-02-11T22:26:28.900Z"
+            "modified": "2024-02-11T22:26:28.900Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Berge und Wolken sind, ebenso wie Wasser, Grundelemente eines jeden Shanshui-Gem\u00e4ldes."
         },
         {
             "type": "TextualBody",
-            "value": "Beschreibung, Motiv",
+            "value": "Beschreibung",
             "purpose": "tagging",
             "creator": {
                 "id": "1Lutec1",
                 "name": "1Lutec1"
             },
-            "created": "2024-02-11T22:26:56.641Z",
-            "modified": "2024-02-11T22:27:35.317Z"
+            "created": "2024-02-11T22:28:28.894Z",
+            "modified": "2024-02-11T22:28:31.991Z"
         }
     ],
+    "id": "833c9aff-ada7-4f36-bd33-7e2cbce4188c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=274.889892578125,827.2172241210938,942.8497314453125,1316.4317016601562"
+        },
         "source": {
             "partOf": {
                 "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/manifest.json",
@@ -37,13 +43,7 @@ order: 1
             },
             "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/canvas/yangjiechang660jpg-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=274.889892578125,827.2172241210938,942.8497314453125,1316.4317016601562"
         }
     },
-    "id": "833c9aff-ada7-4f36-bd33-7e2cbce4188c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
