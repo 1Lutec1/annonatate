@@ -17,10 +17,12 @@ order: 6
             "value": "Der gr\u00fcn-blaue Farbton (Gr\u00fcn und Blau waren in der chinesischen Wahrnehmung zwei Auspr\u00e4gungen derselben Farbe) ist in der chinesischen Elementenlehre die Farbe der Gew\u00e4chse und symbolisiert als solche Gesundheit und Harmonie."
         },
         {
-            "purpose": "geotagging",
-            "type": "Feature",
+            "created": "2024-02-11T21:23:01.270Z",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
             "geometry": {
-                "type": "Polygon",
                 "coordinates": [
                     [
                         [
@@ -1968,13 +1970,11 @@ order: 6
                             37.758757
                         ]
                     ]
-                ]
+                ],
+                "type": "Polygon"
             },
-            "creator": {
-                "id": "1Lutec1",
-                "name": "1Lutec1"
-            },
-            "created": "2024-02-11T21:23:01.270Z"
+            "purpose": "geotagging",
+            "type": "Feature"
         }
     ],
     "id": "675aff0f-c9ff-4d08-8c38-677721e67d0d.json",
