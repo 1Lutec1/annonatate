@@ -1,0 +1,342 @@
+---
+added: 2024-02-12 19&#58;05&#58;41.165832
+thumbnail: https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL01/full/121,/0/default.jpg
+title: Taiping Yulan
+user: 1Lutec1
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Taiping Yulan"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "TPYL01"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL01/full/121,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5698,
+      "width": 3887,
+      "items": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL01/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5698,
+                "width": 3887,
+                "service": [
+                  {
+                    "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL01",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "TPYL02"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL02/full/132,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5657,
+      "width": 4222,
+      "items": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL02/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5657,
+                "width": 4222,
+                "service": [
+                  {
+                    "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL02",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "TPYL03"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL03/full/128,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6003,
+      "width": 4100,
+      "items": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL03/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6003,
+                "width": 4100,
+                "service": [
+                  {
+                    "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL03",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "TPYL04"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL04/full/131,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 6114,
+      "width": 4181,
+      "items": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL04/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6114,
+                "width": 4181,
+                "service": [
+                  {
+                    "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL04",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "TPYL05"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL05/full/131,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5972,
+      "width": 4181,
+      "items": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/page/p5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/annotation/p0005-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL05/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5972,
+                "width": 4181,
+                "service": [
+                  {
+                    "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL05",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "TPYL06"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL06/full/131,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5993,
+      "width": 4192,
+      "items": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL06/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5993,
+                "width": 4192,
+                "service": [
+                  {
+                    "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL06",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "TPYL07"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL07/full/124,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 5779,
+      "width": 3968,
+      "items": [
+        {
+          "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/page/p7/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/annotation/p0007-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL07/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5779,
+                "width": 3968,
+                "service": [
+                  {
+                    "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/TPYL07",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/taipingyulan/canvas/taipingyulan-7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
