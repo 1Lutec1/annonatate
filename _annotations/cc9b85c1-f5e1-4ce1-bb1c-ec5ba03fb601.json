@@ -1,0 +1,38 @@
+---
+canvas: "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/canvas/yangjiechang660jpg-1"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "... und der Harmonie zwischen Natur und Mensch, mit einem starken Fokus auf \u00c4sthetik und Teilhabe anstatt Herrschaft und Macht.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-12T20:40:59.006Z",
+            "modified": "2024-02-12T20:42:24.869Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/canvas/yangjiechang660jpg-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=230.22723388671875,4479.85498046875,1178.1818237304688,1516.36376953125"
+        }
+    },
+    "id": "cc9b85c1-f5e1-4ce1-bb1c-ec5ba03fb601.json",
+    "motivation": "commenting"
+}
