@@ -1,0 +1,38 @@
+---
+canvas: "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/canvas/yangjiechang660jpg-1"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "... Gottheiten oder weisen Einsiedlern...",
+            "purpose": "commenting",
+            "creator": {
+                "id": "1Lutec1",
+                "name": "1Lutec1"
+            },
+            "created": "2024-02-12T20:38:30.995Z",
+            "modified": "2024-02-12T20:38:55.067Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://1lutec1.github.io/annonatate/img/derivatives/iiif/yangjiechang660jpg/canvas/yangjiechang660jpg-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=783.16943359375,3474.406005859375,403.6363525390625,323.636474609375"
+        }
+    },
+    "id": "2dd1020b-824e-41ec-9a31-804716248498.json",
+    "motivation": "commenting"
+}
