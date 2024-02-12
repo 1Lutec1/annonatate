@@ -37,17 +37,6 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Motiv"
-        },
-        {
-            "created": "2024-02-11T22:42:02.821Z",
-            "creator": {
-                "id": "1Lutec1",
-                "name": "1Lutec1"
-            },
-            "modified": "2024-02-11T22:42:17.366Z",
-            "purpose": "editing",
-            "type": "TextualBody",
-            "value": "Wie sehen Antworten aus?"
         }
     ],
     "id": "833c9aff-ada7-4f36-bd33-7e2cbce4188c.json",
